@@ -466,6 +466,7 @@ public final class CorePackageDefinitions {
         corePackage.addSimpleMathCommand("setminus", new MathOperatorInterpretation(MathMLSymbol.SETMINUS));
         corePackage.addSimpleMathCommand("wr", new MathOperatorInterpretation(MathMLSymbol.WR));
         corePackage.addSimpleMathCommand("diamond", new MathOperatorInterpretation(MathMLSymbol.DIAMOND));
+        corePackage.addSimpleMathCommand("square", new MathOperatorInterpretation(MathMLSymbol.SQUARE));
         corePackage.addSimpleMathCommand("bigtriangleup", new MathOperatorInterpretation(MathMLSymbol.BIGTRIANGLEUP));
         corePackage.addSimpleMathCommand("bigtriangledown", new MathOperatorInterpretation(MathMLSymbol.BIGTRIANGLEDOWN));
         corePackage.addSimpleMathCommand("triangleleft", new MathOperatorInterpretation(MathMLSymbol.TRIANGLELEFT));
@@ -589,6 +590,9 @@ public final class CorePackageDefinitions {
         corePackage.addSimpleMathCommand("hbar", new MathIdentifierInterpretation(MathMLSymbol.HBAR));
         corePackage.addSimpleMathCommand("aa", new MathIdentifierInterpretation(MathMLSymbol.AA));
         corePackage.addSimpleMathCommand("AA", new MathIdentifierInterpretation(MathMLSymbol.UC_AA));
+        corePackage.addSimpleMathCommand("dollar", new MathOperatorInterpretation(MathMLSymbol.DOLLAR));
+        corePackage.addSimpleMathCommand("textcent", new MathOperatorInterpretation(MathMLSymbol.TEXT_CENT));
+        corePackage.addSimpleMathCommand("degree", new MathOperatorInterpretation(MathMLSymbol.DEGREE));
 
         /* Math combiner commands that absorb the (bracket) token immediately after. These are
          * converted to fences during token fixing.

@@ -234,6 +234,7 @@ public interface MathMLSymbol {
     public static final String OPEN_ANGLE_BRACKET = "\u2329";
     public static final String CLOSE_ANGLE_BRACKET = "\u232a";
 
+    public static final String SQUARE = "\u25a1";
     public static final String BIGTRIANGLEUP = "\u25b3";
     public static final String TRIANGLE = "\u25b5";
     public static final String BIGTRIANGLEDOWN = "\u25bd";
@@ -253,4 +254,8 @@ public interface MathMLSymbol {
     public static final String BIGUPLUS = "\u2a04";
     public static final String BIGSQCUP = "\u2a06";
     public static final String AMALG = "\u2a3f";
+
+    public static final String TEXT_CENT = "\u00a2";
+    public static final String DEGREE = "\u00b0";
+    public static final String DOLLAR = "$";
 }
