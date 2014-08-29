@@ -586,7 +586,8 @@ public final class CorePackageDefinitions {
         corePackage.addSimpleMathCommand("diamondsuit", new MathIdentifierInterpretation(MathMLSymbol.DIAMONDSUIT));
         corePackage.addSimpleMathCommand("heartsuit", new MathIdentifierInterpretation(MathMLSymbol.HEARTSUIT));
         corePackage.addSimpleMathCommand("spadesuit", new MathIdentifierInterpretation(MathMLSymbol.SPADESUIT));
-        
+        corePackage.addSimpleMathCommand("colon", new MathOperatorInterpretation(MathMLSymbol.COLON));
+
         /* Extra identifiers */
         corePackage.addSimpleMathCommand("hbar", new MathIdentifierInterpretation(MathMLSymbol.HBAR));
         corePackage.addSimpleMathCommand("aa", new MathIdentifierInterpretation(MathMLSymbol.AA));

@@ -20,6 +20,7 @@ public interface MathMLSymbol {
     public static final String COMMA = ",";
     public static final String EQUALS = "=";
     public static final String DOT = ".";
+    public static final String COLON = ":";
     
     public static final String LESS_THAN = "<";
     public static final String GREATER_THAN = ">";
