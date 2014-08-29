@@ -519,6 +519,7 @@ public final class CorePackageDefinitions {
         corePackage.addSimpleMathCommand("smile", new MathOperatorInterpretation(MathMLSymbol.SMILE));
         corePackage.addSimpleMathCommand("frown", new MathOperatorInterpretation(MathMLSymbol.FROWN));
         corePackage.addSimpleMathCommand("propto", new MathOperatorInterpretation(MathMLSymbol.PROPTO));
+        corePackage.addSimpleMathCommand("ne", new MathOperatorInterpretation(MathMLSymbol.NOT_EQUALS));
         
         /* Arrows */
         corePackage.addSimpleMathCommand("leftarrow", new MathOperatorInterpretation(MathMLSymbol.LEFTARROW));
