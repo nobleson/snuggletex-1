@@ -39,6 +39,7 @@ public interface MathMLSymbol {
     public static final String JMATH = "\u006a";
     public static final String NEG = "\u00ac";
     public static final String PM = "\u00b1";
+    public static final String UNARYNEG = "\u207b";
 
     public static final String UC_AA = "\u00c5";
     public static final String TIMES = "\u00d7";

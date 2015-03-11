@@ -446,6 +446,7 @@ public final class CorePackageDefinitions {
         
         /* Binary operators */
         corePackage.addSimpleMathCommand("pm", new MathOperatorInterpretation(MathMLSymbol.PM));
+        corePackage.addSimpleMathCommand("unaryneg", new MathOperatorInterpretation(MathMLSymbol.UNARYNEG));
         corePackage.addSimpleMathCommand("mp", new MathOperatorInterpretation(MathMLSymbol.MP));
         corePackage.addSimpleMathCommand("times", new MathOperatorInterpretation(MathMLSymbol.TIMES));
         corePackage.addSimpleMathCommand("div", new MathOperatorInterpretation(MathMLSymbol.DIV));
